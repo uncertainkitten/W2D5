@@ -1,12 +1,28 @@
 div {
 }
 
-#first-div {
+div.image-1-container {
   background-color: #39cccc;
+  height:600px;
+  width:200px;
 }
 
-#second-div {
-  background-color: #ff4136;
+div.image-1-container img {
+  width:100%;
+}
+
+div.image-2-container {
+  background-color: #39cccc;
+  height:600px;
+  min-width:200px;
+}
+
+div.image-2-container img {
+  width:100%;
+}
+
+#third-div {
+  min-height: 10px;
 }
 
 p {
