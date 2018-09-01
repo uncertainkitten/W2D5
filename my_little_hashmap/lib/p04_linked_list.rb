@@ -17,8 +17,6 @@ class Node
     @next.prev = @prev unless @prev.nil? || @next.nil?
     @key = nil
     @val = nil
-    @next = nil
-    @prev = nil
   end
 end
 
